@@ -1,16 +1,34 @@
-# uaspcd
+# Acne Detection Suite
 
-A new Flutter project.
+Aplikasi desktop untuk deteksi jerawat berbasis Python menggunakan OpenCV dan skimage. Aplikasi ini memiliki GUI interaktif dengan Tkinter yang memungkinkan pengguna untuk mengunggah gambar wajah dan mendeteksi jerawat secara otomatis.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+- Unggah gambar wajah
+- Normalisasi citra (Histogram Equalization dan HSV)
+- Deteksi tepi dan filter morfologi
+- Analisis connected component untuk mendeteksi jerawat
+- Visualisasi jerawat menggunakan bounding box
+- GUI interaktif dengan tombol Upload, Process, Reset, dan Exit
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Teknologi yang Digunakan
+
+- Python
+- Tkinter
+- OpenCV
+- scikit-image
+- NumPy
+- Pillow
+
+---
+
+## Cara Menjalankan Proyek
+
+1. Clone repository:
+
+```bash
+git clone https://github.com/rifamardhatillah/Acne-Detection-Suite.git
