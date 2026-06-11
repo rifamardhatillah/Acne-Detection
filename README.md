@@ -1,28 +1,16 @@
-# UAS PCD - Acne Detection Suite
+# uaspcd
 
-Desktop application for acne detection using Image Processing and Computer Vision techniques.
+A new Flutter project.
 
-## Features
+## Getting Started
 
-- Upload facial images
-- Image normalization (Histogram Equalization, HSV)
-- Edge detection and morphological filtering
-- Automatic acne detection with bounding boxes
-- Interactive GUI with Tkinter
+This project is a starting point for a Flutter application.
 
-## Tech Stack
+A few resources to get you started if this is your first Flutter project:
 
-- Python
-- OpenCV
-- skimage
-- Tkinter
-- NumPy
-- Pillow
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-## Screenshots
-
-Add your GUI screenshots in `images/` folder.
-
-## Author
-
-Rifa Mardhatillah
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
